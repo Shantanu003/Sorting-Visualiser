@@ -27,31 +27,21 @@ function Insertion()
         else{
 
             div_update(bar[i],arr[i],"pink");//Height update
-            div_update(bar[i+1],arr[i+1],"pink");//Height update div_update(bar[i],arr[i],"red");//Height update
-   //div_update(bar[i+1],arr[i+1],"pink");//Height update
+            div_update(bar[i+1],arr[i+1],"pink");//Height update
         }
             
     
         div_update(bar[i],arr[i],"yellow");//Height update
         div_update(bar[i+1],arr[i+1],"yellow")
-            /* if(i==(j-1))
-            {
-                div_update(bar[i+1],arr[i+1],"yellow");//Color update
-            }
-            else
-            {
-                div_update(bar[i+1],arr[i+1],"blue");//Color update
-            } */
+
             i-=1;
         }
-        //arr[i+1]=key;
 
         for(var t=0;t<=j;t++)
         {
             div_update(bar[t],arr[t],"green");//Color update
         } 
     }
-//    div_update(bar[j-1],arr[j-1],"green");//Color update
 
    
 }
