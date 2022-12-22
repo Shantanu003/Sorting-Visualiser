@@ -1,5 +1,5 @@
-var delay_time=10000/(Math.floor(no_of_bar/10)*30);        //Decrease numerator to increase speed.
-var c_delay=0;//This is updated ov every div change so that visualization is visible.
+// var delay_time=10000/(Math.floor(no_of_bar/10)*30);        //Decrease numerator to increase speed.
+// var c_delay=0;//This is updated ov every div change so that visualization is visible.
 
 
 function div_update(cont,height,color)
